@@ -21,7 +21,7 @@ app.get("/api/notes", (req, res) => {
 // This parses string or array.
 app.use(express.urlencoded({extended: true}));
 
-// This parses JSON data.
+//\ parses JSON data.
 app.use(express.json());
 
 app.get("/", (req, res) => {
